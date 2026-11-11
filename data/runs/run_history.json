@@ -1,0 +1,14 @@
+[
+  {
+    "runId": "run_1794371925601_73i0s",
+    "timestamp": "2026-11-11T04:38:52.889Z",
+    "trigger": "SCHEDULED",
+    "status": "SUCCESS",
+    "walletAddress": "0x299ce4113abf88f4997737184aa8a7a3d58ac15c",
+    "periodStart": "2026-11-04T04:00:00.000Z",
+    "periodEnd": "2026-11-11T04:00:00.000Z",
+    "digestId": "digest_1794371925601_299ce4",
+    "durationMs": 7287,
+    "message": "Weekly digest successfully generated for 0x299ce4113abf88f4997737184aa8a7a3d58ac15c. Current period txs: 105, previous: 7."
+  }
+]

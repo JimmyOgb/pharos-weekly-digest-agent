@@ -1,0 +1,30 @@
+{
+  "name": "pharos-weekly-digest-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous periodic weekly activity digest and reporting agent for Pharos Network",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "tsx --test tests/digestEngine.test.ts",
+    "generate": "tsx scripts/runDigest.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3"
+  }
+}

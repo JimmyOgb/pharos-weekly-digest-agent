@@ -1,0 +1,53 @@
+name: Scheduled Weekly Digest Agent
+
+on:
+  schedule:
+    # Runs weekly every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    inputs:
+      wallet:
+        description: 'Target Pharos wallet/contract address'
+        required: false
+        default: '0x299ce4113abf88f4997737184aa8a7a3d58ac15c'
+      force:
+        description: 'Force regenerate digest (bypass duplicate check)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-digest:
+    name: Generate On-Chain Weekly Digest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Digest Engine
+        env:
+          PHAROS_RPC_URL: 'https://atlantic.dplabs-internal.com'
+          MCP_ENDPOINT: 'https://mcp.pharos.xyz/mcp'
+          WALLET_ADDRESS: ${{ github.event.inputs.wallet || '0x299ce4113abf88f4997737184aa8a7a3d58ac15c' }}
+          FORCE_RUN: ${{ github.event.inputs.force || 'false' }}
+          RUN_TRIGGER: ${{ github.event_name == 'workflow_dispatch' && 'WORKFLOW_DISPATCH' || 'SCHEDULED' }}
+        run: npx tsx scripts/runDigest.ts
+
+      - name: Commit & Push Generated Digest Artifacts
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Pharos Weekly Digest Agent"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(digest): autonomous weekly run [skip ci]" && git push)
