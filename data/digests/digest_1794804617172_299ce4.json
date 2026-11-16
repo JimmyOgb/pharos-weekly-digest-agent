@@ -1,0 +1,242 @@
+{
+  "id": "digest_1794804617172_299ce4",
+  "walletAddress": "0x299ce4113abf88f4997737184aa8a7a3d58ac15c",
+  "network": "Pharos Atlantic Testnet",
+  "chainId": 688689,
+  "generatedAt": "2026-11-16T04:50:20.218Z",
+  "status": "CURRENT",
+  "reportingPeriod": {
+    "start": "2026-11-09T04:00:00.000Z",
+    "end": "2026-11-16T04:00:00.000Z",
+    "durationDays": 7
+  },
+  "previousPeriod": {
+    "start": "2026-11-02T04:00:00.000Z",
+    "end": "2026-11-09T04:00:00.000Z",
+    "durationDays": 7
+  },
+  "currentMetrics": {
+    "periodStart": "2026-11-09T04:00:00.000Z",
+    "periodEnd": "2026-11-16T04:00:00.000Z",
+    "durationDays": 7,
+    "txCount": 183,
+    "successCount": 182,
+    "failedCount": 1,
+    "nativeInflowPros": 0,
+    "nativeOutflowPros": 0,
+    "netNativeChangePros": 0,
+    "totalGasUsed": "52551184",
+    "gasCostPros": 0.053023,
+    "contractInteractions": 168,
+    "contractCreations": 15,
+    "uniqueContractsInteracted": [
+      "0x3d96d4cc7cd5a0a6d31be15a6d741ca162060c7b",
+      "0x4ca5d4c42e4f67ab5b3a8946f3f6434cf265ab77",
+      "0x28080450b7be3963f55296ea9f2b45ad9af1b720",
+      "0x001ef1ebebe4167dc0645e33875e9235c7dfaf78",
+      "0x4bf82bc533befdafa0a0d2154842394b37a40ea1",
+      "0x303ab8dbc96b7a5ce175b0096ebcea7656fc189f",
+      "0x79168509e844127abf90ea3b9da16e577e7f8097",
+      "0xe5d292bfa7b74978eca4b5985e9632ffc070934c",
+      "0xe936c602c6e937b24bb98ac0cc79a508e9a253ba",
+      "0x3fab010db4fe733691bc4109522de1d15201999e",
+      "0xd00666d9d7a8ff7d89f496c93be8737174b49a79",
+      "0x4947c0eb5506ccc9d205825358ec6ffee62c3ff8",
+      "0xf3f8e10ee33a1a30b6a01fe89072a49152f81a11",
+      "0x566b30ee9fa6933e55fb5043d57bf9da1da1dce6",
+      "0x837d4be5f6abb04a867822d149ec7f2481df7e9b",
+      "0xac01925484c4e0ea5a22807b9c008fb97127ad10",
+      "0xe6c8d74b4e1b601f0fe873313d09596d95e9ba46",
+      "0x5e76b8ccb135a332b284685a37aa4e7c0178acf2",
+      "0xf92412e2cddd1e74353771a51ca2cf3bd75665a8",
+      "0xd7e423efa7cc89f9c17f917c85c36ed7d9f1586b",
+      "0x280eaaea59c7c4e5522f2d71aa785eadfd0e3a0f",
+      "0x280f385755349e8a2f045257a3e8b5a9b7ea5925",
+      "0xf8097915c10187263cb18b7b6a626ac8af987503",
+      "0x3c52ed4b44f8d95ea9b4011687c540a1428a7cfc",
+      "0xd2f573d1563058171c3bb26321623fb685665752",
+      "0xea3dbef3e1abdfafd5585aeab78366ba9825fa8e",
+      "0xd3a39990ce93865eb159ead40785588bf1a948ca",
+      "0x8a2d055eeac9edd5209a668f13ea6d9ab9684997",
+      "0xcfc8330f4bcab529c625d12781b1c19466a9fc8b",
+      "0x2ceb8febb268f04dd11636e23e03b245c65922a1",
+      "0xa5471cd1111d56136cb4ffd101a0e73eaa5b99b4"
+    ],
+    "dataCoverage": "COMPLETE",
+    "coverageDisclosures": [
+      "Strict 7-day period [2026-11-09T04:00:00.000Z to 2026-11-16T04:00:00.000Z)",
+      "Verified against Pharos Atlantic Testnet (Chain ID 688689)",
+      "Retrieved 183 verified transaction receipts"
+    ]
+  },
+  "previousMetrics": {
+    "periodStart": "2026-11-02T04:00:00.000Z",
+    "periodEnd": "2026-11-09T04:00:00.000Z",
+    "durationDays": 7,
+    "txCount": 8,
+    "successCount": 8,
+    "failedCount": 0,
+    "nativeInflowPros": 0,
+    "nativeOutflowPros": 0,
+    "netNativeChangePros": 0,
+    "totalGasUsed": "574658",
+    "gasCostPros": 0.001249,
+    "contractInteractions": 8,
+    "contractCreations": 0,
+    "uniqueContractsInteracted": [
+      "0xcfc8330f4bcab529c625d12781b1c19466a9fc8b"
+    ],
+    "dataCoverage": "COMPLETE",
+    "coverageDisclosures": [
+      "Preceding 7-day period [2026-11-02T04:00:00.000Z to 2026-11-09T04:00:00.000Z)",
+      "Verified against Pharos Atlantic Testnet (Chain ID 688689)",
+      "Retrieved 8 verified transaction receipts"
+    ]
+  },
+  "comparisons": [
+    {
+      "key": "txCount",
+      "label": "Total Transactions",
+      "currentValue": 183,
+      "previousValue": 8,
+      "absoluteChange": "+175",
+      "percentChange": 2187.5,
+      "unit": "txs",
+      "trend": "UP",
+      "interpretation": "Increased by 2187.5% (+175 txs)"
+    },
+    {
+      "key": "successCount",
+      "label": "Successful Transactions",
+      "currentValue": 182,
+      "previousValue": 8,
+      "absoluteChange": "+174",
+      "percentChange": 2175,
+      "unit": "txs",
+      "trend": "UP",
+      "interpretation": "Increased by 2175% (+174 txs)"
+    },
+    {
+      "key": "failedCount",
+      "label": "Failed Transactions",
+      "currentValue": 1,
+      "previousValue": 0,
+      "absoluteChange": "+1",
+      "percentChange": null,
+      "unit": "txs",
+      "trend": "UP",
+      "interpretation": "New activity: +1 txs from zero"
+    },
+    {
+      "key": "nativeInflow",
+      "label": "Native PROS Inflow",
+      "currentValue": 0,
+      "previousValue": 0,
+      "absoluteChange": "+0.0000",
+      "percentChange": 0,
+      "unit": "PROS",
+      "trend": "NEUTRAL",
+      "interpretation": "No activity in either period"
+    },
+    {
+      "key": "nativeOutflow",
+      "label": "Native PROS Outflow",
+      "currentValue": 0,
+      "previousValue": 0,
+      "absoluteChange": "+0.0000",
+      "percentChange": 0,
+      "unit": "PROS",
+      "trend": "NEUTRAL",
+      "interpretation": "No activity in either period"
+    },
+    {
+      "key": "netNativeChange",
+      "label": "Net Native Balance Shift",
+      "currentValue": 0,
+      "previousValue": 0,
+      "absoluteChange": "+0.0000",
+      "percentChange": 0,
+      "unit": "PROS",
+      "trend": "NEUTRAL",
+      "interpretation": "No activity in either period"
+    },
+    {
+      "key": "gasCost",
+      "label": "Gas Expenditure",
+      "currentValue": 0.053,
+      "previousValue": 0.0012,
+      "absoluteChange": "+0.0518",
+      "percentChange": 4145.2,
+      "unit": "PROS",
+      "trend": "UP",
+      "interpretation": "Increased by 4145.2% (+0.0518 PROS)"
+    },
+    {
+      "key": "contractInteractions",
+      "label": "Contract Interactions",
+      "currentValue": 168,
+      "previousValue": 8,
+      "absoluteChange": "+160",
+      "percentChange": 2000,
+      "unit": "calls",
+      "trend": "UP",
+      "interpretation": "Increased by 2000% (+160 calls)"
+    }
+  ],
+  "notableEvents": [
+    {
+      "txHash": "0x22600bdc870a1c86acffc9a8a3a84fc51e317de6a7c7188ee4779b875397116d",
+      "blockNumber": 32650092,
+      "timestamp": "2026-11-12T01:21:16+00:00",
+      "eventType": "Failed Transaction",
+      "amount": "0 PROS",
+      "token": "PROS",
+      "gasUsed": "65005",
+      "feePros": "0.000065005",
+      "explorerUrl": "https://atlantic.pharosscan.xyz/tx/0x22600bdc870a1c86acffc9a8a3a84fc51e317de6a7c7188ee4779b875397116d",
+      "reason": "Execution failed/reverted on chain; Protocol contract interaction: Fund Yield Reserve",
+      "score": 175
+    },
+    {
+      "txHash": "0xf2bd93fb2602f1270c1ff5985b77cc01cf329ad1023e0b73760c432325d585b1",
+      "blockNumber": 32609752,
+      "timestamp": "2026-11-11T04:58:08+00:00",
+      "eventType": "Contract Deployment",
+      "amount": "0 PROS",
+      "token": "PROS",
+      "gasUsed": "6493524",
+      "feePros": "0.006493524",
+      "explorerUrl": "https://atlantic.pharosscan.xyz/tx/0xf2bd93fb2602f1270c1ff5985b77cc01cf329ad1023e0b73760c432325d585b1",
+      "reason": "Contract creation initiated (deployed address: 0x3fab010db4fe733691bc4109522de1d15201999e); High transaction execution fee (0.006493524 PROS)",
+      "score": 160
+    },
+    {
+      "txHash": "0xd494e6853b0f59d20eb76b9abbb8fa69e28e1eb461ea1835e8fd1637bd338443",
+      "blockNumber": 32608283,
+      "timestamp": "2026-11-11T04:19:17+00:00",
+      "eventType": "Contract Deployment",
+      "amount": "0 PROS",
+      "token": "PROS",
+      "gasUsed": "6493524",
+      "feePros": "0.006493524",
+      "explorerUrl": "https://atlantic.pharosscan.xyz/tx/0xd494e6853b0f59d20eb76b9abbb8fa69e28e1eb461ea1835e8fd1637bd338443",
+      "reason": "Contract creation initiated (deployed address: 0x837d4be5f6abb04a867822d149ec7f2481df7e9b); High transaction execution fee (0.006493524 PROS)",
+      "score": 160
+    }
+  ],
+  "notableEventsExplanation": "Top 3 notable events ranked by on-chain value magnitude, contract creation significance, execution status, and gas consumption.",
+  "sourceDisclosures": {
+    "rpcUrl": "https://atlantic.dplabs-internal.com",
+    "mcpEndpoint": "https://mcp.pharos.xyz/mcp",
+    "explorerUrl": "https://atlantic.pharosscan.xyz/address/0x299ce4113abf88f4997737184aa8a7a3d58ac15c",
+    "historicalIndexingNote": "Data indexed via official Pharos Atlantic Testnet RPC and SocialScan verified receipts with nonce confirmation.",
+    "verificationMethod": "Dual verification via Pharos JSON-RPC (eth_getTransactionReceipt) and Pharos MCP (tools/call)."
+  },
+  "provenance": {
+    "rawTxCountCurrent": 183,
+    "rawTxCountPrevious": 8,
+    "mcpVerified": true,
+    "rpcVerified": true,
+    "latestBlockAtRun": 32844003
+  }
+}
